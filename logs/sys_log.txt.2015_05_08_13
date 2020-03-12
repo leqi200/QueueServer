@@ -1,0 +1,1364 @@
+2015 05 08 13:11:48 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x3a4a8d47] REGISTERED
+2015 05 08 13:11:48 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x3a4a8d47] BIND(0.0.0.0/0.0.0.0:8080)
+2015 05 08 13:11:48 [main] INFO  com.tonsincs.main.HttpSnoopServer  [77] Start Http Service OK...
+2015 05 08 13:11:48 [main] INFO  com.tonsincs.main.HttpSnoopServer  [79] Open your web browser and navigate to http://127.0.0.1:8080/
+2015 05 08 13:11:48 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x3a4a8d47, /0:0:0:0:0:0:0:0:8080] ACTIVE
+2015 05 08 13:16:23 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x3a4a8d47, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x91fb34c4, /192.168.18.44:4865 => /192.168.18.88:8080]
+2015 05 08 13:16:23 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><RspCode>10</RspCode><RspMsg>交易码错误</RspMsg></Package>
+
+2015 05 08 13:27:22 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x9f06c5e0] REGISTERED
+2015 05 08 13:27:22 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x9f06c5e0] BIND(0.0.0.0/0.0.0.0:8080)
+2015 05 08 13:27:22 [main] INFO  com.tonsincs.main.HttpSnoopServer  [77] Start Http Service OK...
+2015 05 08 13:27:22 [main] INFO  com.tonsincs.main.HttpSnoopServer  [79] Open your web browser and navigate to http://127.0.0.1:8080/
+2015 05 08 13:27:22 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x9f06c5e0, /0:0:0:0:0:0:0:0:8080] ACTIVE
+2015 05 08 13:27:35 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x9f06c5e0, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xa49f0d4a, /192.168.18.44:4970 => /192.168.18.88:8080]
+2015 05 08 13:27:35 [nioEventLoopGroup-3-1] INFO  com.tonsincs.util.C3P0ConnentionProvider  [43] c3p0Path:/home/mrxiao/workspace/QueueServer/config/c3p0.properties
+2015 05 08 13:27:35 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog  [124] MLog clients using log4j logging.
+2015 05 08 13:27:35 [nioEventLoopGroup-3-1] INFO  com.mchange.v2.c3p0.C3P0Registry  [216] Initializing c3p0-0.9.5-pre6 [built 07-December-2013 02:53:43 +0000; debug? true; trace: 10]
+2015 05 08 13:27:35 [nioEventLoopGroup-3-1] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  [522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5ecc275d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a718d99 [ acquireIncrement -> 3, acquireRetryAttempts -> 60, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsx99dvd8nutu3rbt|dd18cc, idleConnectionTestPeriod -> 120, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 25, maxStatements -> 8, maxStatementsPerConnection -> 5, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@58f60ea2 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> z8kfsx99dvd8nutu3rbt|6bc159, jdbcUrl -> jdbc:sqlserver://192.168.18.44:1433;DatabaseName=QUEUE, properties -> {driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver, user=******, password=******, jdbcUrl=jdbc:sqlserver://192.168.18.44:1433;DatabaseName=QUEUE} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kfsx99dvd8nutu3rbt|46b78d, numHelperThreads -> 3 ]
+2015 05 08 13:27:36 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [60] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:27:36 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:
+
+2015 05 08 13:36:47 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0xaaaab2f7] REGISTERED
+2015 05 08 13:36:47 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0xaaaab2f7] BIND(0.0.0.0/0.0.0.0:8080)
+2015 05 08 13:36:47 [main] INFO  com.tonsincs.main.HttpSnoopServer  [77] Start Http Service OK...
+2015 05 08 13:36:47 [main] INFO  com.tonsincs.main.HttpSnoopServer  [79] Open your web browser and navigate to http://127.0.0.1:8080/
+2015 05 08 13:36:47 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0xaaaab2f7, /0:0:0:0:0:0:0:0:8080] ACTIVE
+2015 05 08 13:36:51 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0xaaaab2f7, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xed0f8c64, /192.168.18.44:5090 => /192.168.18.88:8080]
+2015 05 08 13:36:51 [nioEventLoopGroup-3-1] INFO  com.tonsincs.util.C3P0ConnentionProvider  [43] c3p0Path:/home/mrxiao/workspace/QueueServer/config/c3p0.properties
+2015 05 08 13:36:51 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog  [124] MLog clients using log4j logging.
+2015 05 08 13:36:51 [nioEventLoopGroup-3-1] INFO  com.mchange.v2.c3p0.C3P0Registry  [216] Initializing c3p0-0.9.5-pre6 [built 07-December-2013 02:53:43 +0000; debug? true; trace: 10]
+2015 05 08 13:36:51 [nioEventLoopGroup-3-1] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  [522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4ec3627a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@29ecc428 [ acquireIncrement -> 3, acquireRetryAttempts -> 60, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsx99dvp5idufihgs|28d98d, idleConnectionTestPeriod -> 120, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 25, maxStatements -> 8, maxStatementsPerConnection -> 5, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@1fd2b5c7 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> z8kfsx99dvp5idufihgs|876818, jdbcUrl -> jdbc:sqlserver://192.168.18.44:1433;DatabaseName=QUEUE, properties -> {driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver, user=******, password=******, jdbcUrl=jdbc:sqlserver://192.168.18.44:1433;DatabaseName=QUEUE} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kfsx99dvp5idufihgs|160fc8e, numHelperThreads -> 3 ]
+2015 05 08 13:36:51 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:36:51 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:54 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:54 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:55 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:55 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:56 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:56 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:57 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:57 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:57 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:57 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:57 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:58 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:58 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:58 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:58 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:58 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:58 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:58 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:37:59 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:37:59 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:00 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:00 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:00 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:00 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:01 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:01 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:02 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:02 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:02 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:02 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:03 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:03 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:03 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:03 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:03 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:03 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:04 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:04 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:04 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:04 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:04 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:04 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:05 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:05 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:05 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:05 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:05 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:05 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:06 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:07 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:08 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:09 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:09 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:09 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:09 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:09 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:09 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:09 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:09 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:10 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:10 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:10 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:10 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:10 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:10 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:10 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:10 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:12 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:13 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:13 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:13 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:13 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:38:13 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:38:13 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:50:00 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x5cea8507] REGISTERED
+2015 05 08 13:50:00 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x5cea8507] BIND(0.0.0.0/0.0.0.0:8080)
+2015 05 08 13:50:00 [main] INFO  com.tonsincs.main.HttpSnoopServer  [77] Start Http Service OK...
+2015 05 08 13:50:00 [main] INFO  com.tonsincs.main.HttpSnoopServer  [79] Open your web browser and navigate to http://127.0.0.1:8080/
+2015 05 08 13:50:00 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x5cea8507, /0:0:0:0:0:0:0:0:8080] ACTIVE
+2015 05 08 13:50:11 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x5cea8507, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x1c0d82ed, /192.168.18.44:5210 => /192.168.18.88:8080]
+2015 05 08 13:50:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.util.C3P0ConnentionProvider  [43] c3p0Path:/home/mrxiao/workspace/QueueServer/config/c3p0.properties
+2015 05 08 13:50:11 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog  [124] MLog clients using log4j logging.
+2015 05 08 13:50:11 [nioEventLoopGroup-3-1] INFO  com.mchange.v2.c3p0.C3P0Registry  [216] Initializing c3p0-0.9.5-pre6 [built 07-December-2013 02:53:43 +0000; debug? true; trace: 10]
+2015 05 08 13:50:11 [nioEventLoopGroup-3-1] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  [522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@c682c0b7 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@1965d301 [ acquireIncrement -> 3, acquireRetryAttempts -> 60, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsx99dw6ao81h9f7yn|13292d2, idleConnectionTestPeriod -> 120, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 25, maxStatements -> 8, maxStatementsPerConnection -> 5, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c8288dd6 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> z8kfsx99dw6ao81h9f7yn|1ad44b0, jdbcUrl -> jdbc:sqlserver://192.168.18.44:1433;DatabaseName=QUEUE, properties -> {driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver, user=******, password=******, jdbcUrl=jdbc:sqlserver://192.168.18.44:1433;DatabaseName=QUEUE} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kfsx99dw6ao81h9f7yn|1bc21b2, numHelperThreads -> 3 ]
+2015 05 08 13:50:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:50:11 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:50:32 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694016</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><RspCode>10</RspCode><RspMsg>交易码错误</RspMsg></Package>
+
+2015 05 08 13:50:53 [nioEventLoopGroup-3-1] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:null typeName:null waithNum:0 windows:
+2015 05 08 13:50:53 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [132] HttpRequest INFO:
+WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+CONTENT: <?xml version="1.0" encoding="UTF-8" ?>
+ <Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>2</BizType>
+    <TermNo>ZZZD-0001</TermNo>
+ </Package>msg:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNum>0</QueueNum></Package>
+
+2015 05 08 13:52:23 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x5cea8507, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x37aa6ccb, /192.168.18.44:5251 => /192.168.18.88:8080]
+2015 05 08 13:52:23 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x5cea8507, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xba2416af, /192.168.18.44:5252 => /192.168.18.88:8080]
+2015 05 08 13:53:31 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x5cea8507, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x315973ad, /192.168.18.44:5354 => /192.168.18.88:8080]
+2015 05 08 13:53:48 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x5cea8507, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x9220ef66, /192.168.18.44:5360 => /192.168.18.88:8080]
+2015 05 08 13:54:05 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0xb1fc327b] REGISTERED
+2015 05 08 13:54:05 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0xb1fc327b] BIND(0.0.0.0/0.0.0.0:8080)
+2015 05 08 13:54:05 [main] INFO  com.tonsincs.main.HttpSnoopServer  [77] Start Http Service OK...
+2015 05 08 13:54:05 [main] INFO  com.tonsincs.main.HttpSnoopServer  [79] Open your web browser and navigate to http://127.0.0.1:8080/
+2015 05 08 13:54:05 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0xb1fc327b, /0:0:0:0:0:0:0:0:8080] ACTIVE
+2015 05 08 13:54:08 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0xb1fc327b, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x81bd05a4, /192.168.18.44:5368 => /192.168.18.88:8080]

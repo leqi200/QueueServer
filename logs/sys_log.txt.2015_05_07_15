@@ -1,0 +1,54 @@
+2015 05 07 15:40:30 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x7c355820] REGISTERED
+2015 05 07 15:40:30 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x7c355820] BIND(0.0.0.0/0.0.0.0:8080)
+2015 05 07 15:40:30 [main] INFO  com.tonsincs.main.HttpSnoopServer  [77] Http Service Start OK...
+2015 05 07 15:40:30 [main] INFO  com.tonsincs.main.HttpSnoopServer  [79] Open your web browser and navigate to http://127.0.0.1:8080/
+2015 05 07 15:40:30 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x7c355820, /0:0:0:0:0:0:0:0:8080] ACTIVE
+2015 05 07 15:41:01 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x7c355820, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x805c064b, /192.168.18.44:59451 => /192.168.18.88:8080]
+2015 05 07 15:41:02 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [114] HttpRequest INFO:WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+
+2015 05 07 15:41:02 [nioEventLoopGroup-3-1] INFO  com.tonsincs.util.C3P0ConnentionProvider  [43] c3p0Path:/home/mrxiao/workspace/QueueServer/config/c3p0.properties
+2015 05 07 15:41:02 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog  [124] MLog clients using log4j logging.
+2015 05 07 15:41:02 [nioEventLoopGroup-3-1] INFO  com.mchange.v2.c3p0.C3P0Registry  [216] Initializing c3p0-0.9.5-pre6 [built 07-December-2013 02:53:43 +0000; debug? true; trace: 10]
+2015 05 07 15:41:02 [nioEventLoopGroup-3-1] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource  [522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@5ac0eb67 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@59d04853 [ acquireIncrement -> 3, acquireRetryAttempts -> 60, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 3000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsx99ckozxv630byb|47f318, idleConnectionTestPeriod -> 120, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 600, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 25, maxStatements -> 8, maxStatementsPerConnection -> 5, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7ee415f1 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> z8kfsx99ckozxv630byb|17eb6b2, jdbcUrl -> jdbc:sqlserver://192.168.18.44:1433;DatabaseName=QUEUE, properties -> {driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver, user=******, password=******, jdbcUrl=jdbc:sqlserver://192.168.18.44:1433;DatabaseName=QUEUE} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> z8kfsx99ckozxv630byb|2dbdc2, numHelperThreads -> 3 ]
+2015 05 07 15:41:04 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [114] HttpRequest INFO:WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+
+2015 05 07 15:41:04 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [114] HttpRequest INFO:WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+
+2015 05 07 15:41:05 [nioEventLoopGroup-3-1] INFO  com.tonsincs.net.HttpSnoopServerHandler  [114] HttpRequest INFO:WELCOME TO THE WILD WILD WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 183
+
+

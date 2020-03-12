@@ -1,0 +1,684 @@
+2015 05 09 15:00:00 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A003 typeName:综合业务 waithNum:2 windows:
+2015 05 09 15:00:00 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A003</QueueNumber><QueueNum>2</QueueNum></Package>
+
+2015 05 09 15:00:00 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A004 typeName:综合业务 waithNum:3 windows:
+2015 05 09 15:00:00 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A004</QueueNumber><QueueNum>3</QueueNum></Package>
+
+2015 05 09 15:00:00 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A005 typeName:综合业务 waithNum:4 windows:
+2015 05 09 15:00:00 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A005</QueueNumber><QueueNum>4</QueueNum></Package>
+
+2015 05 09 15:00:00 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A006 typeName:综合业务 waithNum:5 windows:
+2015 05 09 15:00:00 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A006</QueueNumber><QueueNum>5</QueueNum></Package>
+
+2015 05 09 15:00:01 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A007 typeName:综合业务 waithNum:6 windows:
+2015 05 09 15:00:01 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A007</QueueNumber><QueueNum>6</QueueNum></Package>
+
+2015 05 09 15:00:01 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A008 typeName:综合业务 waithNum:7 windows:
+2015 05 09 15:00:01 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A008</QueueNumber><QueueNum>7</QueueNum></Package>
+
+2015 05 09 15:00:01 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A009 typeName:综合业务 waithNum:8 windows:
+2015 05 09 15:00:01 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A009</QueueNumber><QueueNum>8</QueueNum></Package>
+
+2015 05 09 15:00:01 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A010 typeName:综合业务 waithNum:9 windows:
+2015 05 09 15:00:01 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A010</QueueNumber><QueueNum>9</QueueNum></Package>
+
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A011 typeName:综合业务 waithNum:10 windows:
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A011</QueueNumber><QueueNum>10</QueueNum></Package>
+
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A012 typeName:综合业务 waithNum:11 windows:
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A012</QueueNumber><QueueNum>11</QueueNum></Package>
+
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A013 typeName:综合业务 waithNum:12 windows:
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A013</QueueNumber><QueueNum>12</QueueNum></Package>
+
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A014 typeName:综合业务 waithNum:13 windows:
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A014</QueueNumber><QueueNum>13</QueueNum></Package>
+
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A015 typeName:综合业务 waithNum:14 windows:
+2015 05 09 15:00:02 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A015</QueueNumber><QueueNum>14</QueueNum></Package>
+
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A016 typeName:综合业务 waithNum:15 windows:
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A016</QueueNumber><QueueNum>15</QueueNum></Package>
+
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A017 typeName:综合业务 waithNum:16 windows:
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A017</QueueNumber><QueueNum>16</QueueNum></Package>
+
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A018 typeName:综合业务 waithNum:17 windows:
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A018</QueueNumber><QueueNum>17</QueueNum></Package>
+
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A019 typeName:综合业务 waithNum:18 windows:
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A019</QueueNumber><QueueNum>18</QueueNum></Package>
+
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A020 typeName:综合业务 waithNum:19 windows:
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A020</QueueNumber><QueueNum>19</QueueNum></Package>
+
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A021 typeName:综合业务 waithNum:20 windows:
+2015 05 09 15:00:03 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A021</QueueNumber><QueueNum>20</QueueNum></Package>
+
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A022 typeName:综合业务 waithNum:21 windows:
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A022</QueueNumber><QueueNum>21</QueueNum></Package>
+
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A023 typeName:综合业务 waithNum:22 windows:
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A023</QueueNumber><QueueNum>22</QueueNum></Package>
+
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A024 typeName:综合业务 waithNum:23 windows:
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A024</QueueNumber><QueueNum>23</QueueNum></Package>
+
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A025 typeName:综合业务 waithNum:24 windows:
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A025</QueueNumber><QueueNum>24</QueueNum></Package>
+
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A026 typeName:综合业务 waithNum:25 windows:
+2015 05 09 15:00:04 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A026</QueueNumber><QueueNum>25</QueueNum></Package>
+
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A027 typeName:综合业务 waithNum:26 windows:
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A027</QueueNumber><QueueNum>26</QueueNum></Package>
+
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A028 typeName:综合业务 waithNum:27 windows:
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A028</QueueNumber><QueueNum>27</QueueNum></Package>
+
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A029 typeName:综合业务 waithNum:28 windows:
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A029</QueueNumber><QueueNum>28</QueueNum></Package>
+
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A030 typeName:综合业务 waithNum:29 windows:
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A030</QueueNumber><QueueNum>29</QueueNum></Package>
+
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A031 typeName:综合业务 waithNum:30 windows:
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A031</QueueNumber><QueueNum>30</QueueNum></Package>
+
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A032 typeName:综合业务 waithNum:31 windows:
+2015 05 09 15:00:05 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A032</QueueNumber><QueueNum>31</QueueNum></Package>
+
+2015 05 09 15:00:06 [nioEventLoopGroup-3-2] INFO  com.tonsincs.service.QueueServices  [62] 执行结果：ret:1 number:A033 typeName:综合业务 waithNum:32 windows:
+2015 05 09 15:00:06 [nioEventLoopGroup-3-2] INFO  com.tonsincs.net.HttpSnoopServerHandler  [144] 
+WELCOME TO THE QUEUESYSTEM WEB SERVER
+===================================
+VERSION: HTTP/1.1
+HOSTNAME: 192.168.18.88:8080
+REQUEST_URI: /
+
+HEADER: User-Agent = Fiddler
+HEADER: Host = 192.168.18.88:8080
+HEADER: Content-Length = 181
+
+CONTENT: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package>
+    <TranCode>694012</TranCode>
+    <InstNo>10101</InstNo>
+    <BizType>1</BizType>
+    <TermNo>zzzz-0001</TermNo>
+</Package>
+RESPONSE_CONTENT:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Package><SerialName>综合业务</SerialName><ServCounter></ServCounter><RspCode>0</RspCode><RspMsg>处理成功</RspMsg><QueueNumber>A033</QueueNumber><QueueNum>32</QueueNum></Package>
+
+2015 05 09 15:00:45 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x871234ef, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x86cae903, /192.168.18.44:25382 => /192.168.18.88:8080]
+2015 05 09 15:00:45 [nioEventLoopGroup-2-1] INFO  io.netty.handler.logging.LoggingHandler  [100] [id: 0x871234ef, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x89d85911, /192.168.18.44:25383 => /192.168.18.88:8080]
